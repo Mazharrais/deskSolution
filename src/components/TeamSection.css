@@ -1,0 +1,106 @@
+
+
+/* Base Styles */
+.team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+  }
+  
+  .team-heading {
+    color: #232323;
+    font-size: 1.875rem; /* 3xl */
+    font-weight: bold;
+    margin-bottom: 1.5rem; /* 6 */
+  }
+  
+  .team-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.5rem; /* 14 */
+    flex-wrap: nowrap;
+  }
+  
+  .team-image-container {
+    position: relative;
+    width: 28vw;
+    height: 62vh;
+  }
+  
+  .team-image {
+    width: 28vw;
+    height: 62vh;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+  
+  .team-image:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .overlay:hover {
+    opacity: 1;
+  }
+  
+  .overlay-text {
+    font-size: 1.25rem; /* xl */
+    color: #232323;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .additional-text {
+    color: #232323;
+    margin-top: 6rem;
+    font-weight: bold;
+  }
+  
+  /* Responsive Styles for Screens Between 391px and 485px */
+  @media screen and (max-width: 485px) and (min-width: 391px) {
+    .team-images {
+      flex-direction: column; /* Stack images vertically */
+      align-items: center; /* Center images */
+      gap: 1.5rem; /* Add spacing between images */
+    }
+  
+    .team-image-container {
+      width: 80vw; /* Adjust width for smaller screens */
+      height: auto;
+    }
+  
+    .team-image {
+      width: 80vw; /* Make images larger */
+      height: auto; /* Maintain aspect ratio */
+    }
+  
+    .overlay {
+      margin-top: 2rem; /* Adjust overlay placement */
+    }
+  
+    .team-heading {
+      font-size: 1.5rem; /* Slightly smaller font */
+    }
+  
+    .team-container {
+      margin-top: 2rem; /* Adjust top margin */
+    }
+  }
+  
+  
