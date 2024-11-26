@@ -78,7 +78,7 @@
   }
   
   /* Responsive Styles for Screen Width 391px to 485px */
-  @media (max-width: 485px) and (min-width: 391px) {
+  @media (max-width: 485px)  {
     .white-section .text-container {
       margin-left: 1rem;
       max-width: 100%;

@@ -123,7 +123,7 @@
   }
   
   /* Responsive Styles for 391px to 485px */
-  @media screen and (max-width: 485px) and (min-width: 391px) {
+  @media screen and (max-width: 485px) {
     .testimonial-section {
       flex-direction: column;
       height: auto;

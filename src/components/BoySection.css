@@ -73,7 +73,7 @@
 }
 
 /* Responsive styles for screen widths 391px to 485px */
-@media screen and (max-width: 485px) and (min-width: 391px) {
+@media screen and (max-width: 485px) {
     .boy-section {
         height: 150vh; /* Increased height for better fit */
     }

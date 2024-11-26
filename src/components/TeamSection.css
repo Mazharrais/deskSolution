@@ -73,7 +73,7 @@
   }
   
   /* Responsive Styles for Screens Between 391px and 485px */
-  @media screen and (max-width: 485px) and (min-width: 391px) {
+  @media screen and (max-width: 485px) {
     .team-images {
       flex-direction: column; /* Stack images vertically */
       align-items: center; /* Center images */
